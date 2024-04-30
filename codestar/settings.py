@@ -34,7 +34,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '8000-lienebriede-djangoblog-8nm6yg14qnc.ws-eu110.gitpod.io',
     '.herokuapp.com',
-    'localhost:8000',
+    'localhost',
 ]
 
 
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'django_summernote',
+    'about',
 ]
 
 MIDDLEWARE = [
